@@ -1,0 +1,5 @@
+https://github.com/nnja/python
+https://www.learnpython.dev/
+nina - reddit, microsoft as cloud advocate focusing on python, also dev @ venmo
+nina also teaches git in depth
+https://frontendmasters.com/courses/git-in-depth/
