@@ -3,3 +3,9 @@ https://www.learnpython.dev/
 nina - reddit, microsoft as cloud advocate focusing on python, also dev @ venmo
 nina also teaches git in depth
 https://frontendmasters.com/courses/git-in-depth/
+
+THIS COURSE 
+- python 3.7+ 
+
+Python && catalina && homebrew...
+https://opensource.com/article/19/5/python-3-default-mac
