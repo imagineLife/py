@@ -31,3 +31,36 @@ Using base prefix '/Library/Frameworks/Python.framework/Versions/3.8'
 New python executable in /Users/Jake/Desktop/projects/py/py-bits/bin/python3
 Also creating executable in /Users/Jake/Desktop/projects/py/py-bits/bin/python
 
+***
+to activate virtualenv
+***
+source py-bits/bin/activate
+
+Jakes-3:py Jake$ source py-bits/bin/activate
+(py-bits) Jakes-3:py Jake$ 
+
+**installing packages
+pip install package-name
+pip install requests
+
+**
+	a command
+**
+pip freeze > requirements.txt
+then
+cat requirementes.txt
+will output all dependencies in the project
+...
+certifi==2019.11.28
+chardet==3.0.4
+idna==2.8
+requests==2.22.0
+urllib3==1.25.7
+...
+this can be included in the repo, like a package.json
+
+
+**
+	using the package.json text
+**
+pip install -r requirements.txt
