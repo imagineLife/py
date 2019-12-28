@@ -9,3 +9,25 @@ THIS COURSE
 
 Python && catalina && homebrew...
 https://opensource.com/article/19/5/python-3-default-mac
+
+
+***
+	virtual envs
+***
+- allow keeping dependencies of projecs in separate places
+
+pip install virtualenv
+
+***
+creating a virtualenv project
+***
+virtualenv project-name -p /declare/path/to/python3/version
+
+Jakes-3:py Jake$ virtualenv py-bits -p /usr/local/bin/python3
+Running virtualenv with interpreter /usr/local/bin/python3
+Using base prefix '/Library/Frameworks/Python.framework/Versions/3.8'
+/Library/Python/2.7/site-packages/virtualenv.py:1039: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+New python executable in /Users/Jake/Desktop/projects/py/py-bits/bin/python3
+Also creating executable in /Users/Jake/Desktop/projects/py/py-bits/bin/python
+
