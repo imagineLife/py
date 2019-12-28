@@ -70,3 +70,25 @@ pip install -r requirements.txt
 	leaving a virtualenv
 **
 deactivate
+
+
+**
+	repl	
+**
+read
+evaluate
+print
+loop
+
+getting into the cli for python, use 'python'
+getting out of the cli, use 'quit()'
+print needs print('string here')
+
+***
+	getting the time
+***
+import datetime
+now = datetime.datetime.now()
+print(now)
+2019-12-28 10:13:03.969756
+
