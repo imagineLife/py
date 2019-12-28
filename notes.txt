@@ -64,3 +64,9 @@ this can be included in the repo, like a package.json
 	using the package.json text
 **
 pip install -r requirements.txt
+
+
+**
+	leaving a virtualenv
+**
+deactivate
