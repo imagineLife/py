@@ -120,4 +120,5 @@ start by using 'python'
 	null vars
 **
 - null is 'None' in Python
-- checking for vars using the var == None is not a good way. Each var gets an id (find it by id(foo))
+- checking for vars using the var == None is not a good way. Each var gets an id (find it by id(foo)). using the IS operator finds the val by id. using the == operator does a diff comparison?!....
+
