@@ -102,3 +102,17 @@ def add(a,b):
 
 add(3,4)
 7
+
+** 
+	repl
+** 
+the cli for python in the terminal.
+start by using 'python'
+
+
+***
+	***
+		variables
+	***
+***
+null is 'None' in Python
