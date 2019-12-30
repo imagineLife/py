@@ -130,3 +130,6 @@ start by using 'python'
 - lists are mutable
 - dictionaries are mutable
 - strings/ints && tuples are immutable
+
+
+02 @ 30:29, if/while looping
