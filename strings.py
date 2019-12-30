@@ -22,3 +22,10 @@ print('------')
 itm = 'SUB ball'
 clr = 'SUB red'
 print('Will\'s %s is %s' % (itm, clr))
+
+print('------')
+print('---WITH SUBSTITUTIONS DIFFERENTLY---')
+print('------')
+itm2 = 'SUB2 ball'
+clr2 = 'SUB2 red'
+print('Will\'s {0} is {1}' % (itm2, clr2))
