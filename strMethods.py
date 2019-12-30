@@ -23,3 +23,10 @@ strSpaces = '   Wills ball is spaced out   '
 print(strSpaces)
 print(strSpaces.lstrip())
 print(strSpaces.rstrip())
+
+print('------')
+print('------')
+print('---string methods--')
+print('------')
+print('------')
+print(dir("string"))
