@@ -10,3 +10,6 @@ for itm in range(10,15):
 
 for itm in range(10,20,2):
 	print(itm)
+
+for itm in range(10,0,-3):
+	print(itm)
