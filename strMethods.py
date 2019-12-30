@@ -10,3 +10,8 @@ print('---Ends With substring---')
 print('------')
 subString = "string."
 print(str.endswith(subString))
+
+print('------')
+print('---Index of matching "is"--')
+print('------')
+print(str.find("is"))
