@@ -6,13 +6,13 @@ app = Flask(__name__ )
 # telling the app where the db is located
 # /// is relative, //// is absolute
 # test.db is storing the data
-app.config['SQLALCEMY_DATABASE_URI'] = 'sqlite:///test.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 
 #init db with settings from the app
 db = SQLAlchemy(app)
 
 #make a db model
-class Todo(db.model):
+class Todo(db.Model):
 	#colum & column types
 	id = db.Column(db.Integer, primary_key=True)
 	content = db.Column(db.String(200), nullable=False)
