@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from flask_sqlalchemy import sqlAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 # __name__ references cur file
 app = Flask(__name__ )
@@ -9,7 +9,7 @@ app = Flask(__name__ )
 app.config['SQLALCEMY_DATABASE_URI'] = 'sqlite:///test.db'
 
 #init db with settings from the app
-db = sqlAlchemy(app)
+db = SQLAlchemy(app)
 
 #make a db model
 class Todo(db.model):
@@ -18,6 +18,7 @@ class Todo(db.model):
 	content = db.Column(db.String(200), nullable=False)
 	date_created = db.Column(db.DateTime, default=datetime.utcnow)
 
+	#returns taskID
 	def __repr__(self):
 		return '<Task %r>' % self.id
  
