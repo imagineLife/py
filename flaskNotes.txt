@@ -4,8 +4,9 @@ FLASK Intro
 - pip (9.0.1+)
 - virtualenv
 - mkdir flaskIntro
-- cd flaskIntro, then 
+- cd flaskIntro, then...
 	pip3 install virtualenv
+- virtualenv todoenv
 
 2 Basic app up & running
 3 templates && static content
