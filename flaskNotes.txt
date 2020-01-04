@@ -1,0 +1,7 @@
+FLASK Intro
+1 setup & Workflow
+2 Basic app up & running
+3 templates && static content
+4 Integrating SQLite
+5 Add CRUD to the flask project
+6 deploy to heroku
