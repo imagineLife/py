@@ -26,6 +26,9 @@ if __name__ == "__main__":
 	app.run(debug=True)
 
 3 templates && static content
+- index.html in templates file
+- template-inheritance: a parent/child reference
+- BASE will be... the 'base' template, the 'parent' that the 'children' will inherit
 
 
 4 Integrating SQLite
