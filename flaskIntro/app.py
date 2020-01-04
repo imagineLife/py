@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-
+from flask_sqlalchemy import sqlAlchemy
 # __name__ references cur file
 app = Flask(__name__ )
 
