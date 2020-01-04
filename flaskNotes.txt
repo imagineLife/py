@@ -1,5 +1,9 @@
 FLASK Intro
 1 setup & Workflow
+- python 3.6+
+- pip (9.0.1+)
+- virtualenv
+
 2 Basic app up & running
 3 templates && static content
 4 Integrating SQLite
