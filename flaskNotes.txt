@@ -13,8 +13,25 @@ FLASK Intro
 - pip3 install flask flask-sqlalchemy
 ...NOTE
 	had to adjust edit-settings on the python framework dir
+
+
 2 Basic app up & running
+setup the app.py file with 7 lines:
+from flask import Flask
+app = Flask(__name__ )
+@app.route('/')
+def index():
+	return "Hello, world!"
+if __name__ == "__main__":
+	app.run(debug=True)
+
 3 templates && static content
+
+
 4 Integrating SQLite
+
+
 5 Add CRUD to the flask project
+
+
 6 deploy to heroku
