@@ -8,8 +8,11 @@ FLASK Intro
 	pip3 install virtualenv
 - virtualenv todoenv
 - source tooenv/bin/activate
-... THIS GETS THE TERMINAL INSIDE THE VIRTUALENV SHELL!!
-
+	... THIS GETS THE TERMINAL INSIDE THE
+	VIRTUALENV SHELL!!
+- pip3 install flask flask-sqlalchemy
+...NOTE
+	had to adjust edit-settings on the python framework dir
 2 Basic app up & running
 3 templates && static content
 4 Integrating SQLite
