@@ -3,6 +3,9 @@ FLASK Intro
 - python 3.6+
 - pip (9.0.1+)
 - virtualenv
+- mkdir flaskIntro
+- cd flaskIntro, then 
+	pip3 install virtualenv
 
 2 Basic app up & running
 3 templates && static content
