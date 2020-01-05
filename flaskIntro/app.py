@@ -30,10 +30,27 @@ def index():
 
 	#POST handler
 	if request.method == "POST":
+
+		task_content = request.form('content')
+		new_task = Todo(content=task_content)
+
+		#try adding task to db && redirecting to root page
+		try:
+			db.session.add(new_task)
+			db.session.commit()
+			return redirect('/')
+		except:
+			return 'there was an issue adding your task'
+
+
 		return 'Hello submitted!'
 
-	#Return the page on GET
+	#Return the index page on GET
 	else:
+
+		#get all tasks from db
+		tasks = Todo.query.order_by(Todo.date_created).all()
+
 		#Here, flask "knows" to look in the 'templates' dir
 		return render_template('index.html')
 
