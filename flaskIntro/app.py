@@ -30,7 +30,7 @@ def index():
 
 	#POST handler
 	if request.method == "POST":
-		pass
+		return 'Hello submitted!'
 
 	#Return the page on GET
 	else:
