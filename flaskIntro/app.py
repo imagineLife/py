@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 # __name__ references cur file
@@ -31,7 +31,7 @@ def index():
 	#POST handler
 	if request.method == "POST":
 
-		task_content = request.form('content')
+		task_content = request.form['content']
 		new_task = Todo(content=task_content)
 
 		#try adding task to db && redirecting to root page
@@ -42,17 +42,14 @@ def index():
 		except:
 			return 'there was an issue adding your task'
 
-
-		return 'Hello submitted!'
-
 	#Return the index page on GET
 	else:
-
 		#get all tasks from db
 		tasks = Todo.query.order_by(Todo.date_created).all()
 
 		#Here, flask "knows" to look in the 'templates' dir
-		return render_template('index.html')
+		#"tasks" is param-name passed to the index.html template
+		return render_template('index.html', tasks=tasks)
 
 if __name__ == "__main__":
 	app.run(debug=True)
