@@ -23,7 +23,7 @@ class Todo(db.Model):
 		return '<Task %r>' % self.id
  
 # index route
-# accepts 2 methods in the methods arr
+# accepts 2 methods, declared in the methods arr
 @app.route('/', methods=['POST', 'GET'])
 def index():
 	#return "Hello, world!"
